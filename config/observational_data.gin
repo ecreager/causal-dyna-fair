@@ -1,0 +1,13 @@
+data_dir = './data'
+results_dir = '/tmp/causal-dyna-fair/observational_data'
+seed = 0
+num_samps = 10000
+num_steps = 1
+get_experiment.repayment_utility = 1
+get_experiment.default_utility = -4
+get_experiment.repayment_score_change = 75
+get_experiment.default_score_change = -150
+get_experiment.num_steps = %num_steps
+get_data_args.data_dir = %data_dir
+run_simulation.num_samps = %num_samps
+run_simulation.seed = %seed
