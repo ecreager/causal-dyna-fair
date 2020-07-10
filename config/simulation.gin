@@ -1,0 +1,12 @@
+seed = 0
+data_dir = './data'
+results_dir = '/tmp/causal-dyna-fair/simulation'
+utility_repay = 1
+utility_default = -4
+score_change_repay = 75
+score_change_default = -150
+num_steps = 1
+num_samps = 10000
+policy_name = 'maxprof'
+get_policy.policy_name = %policy_name
+get_data_args.data_dir = %data_dir
